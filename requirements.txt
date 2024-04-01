@@ -1,0 +1,4 @@
+paddleocr
+opencv-python
+pytesseract
+pymysql
