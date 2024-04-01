@@ -297,16 +297,16 @@ if __name__ == '__main__':
     """
 
 
-    connection = pymysql.connect(host='127.0.0.1',
-                                 user='root',
-                                 password='',
-                                 db='digicheque',
+    connection = pymysql.connect(host='your_host_goes_here',
+                                 user='your_user_goes_here',
+                                 password='your_password_goes_here',
+                                 db='your_db_goes_here',
                                  charset='utf8mb4',
                                  cursorclass=pymysql.cursors.DictCursor)
 
     try:
         with connection.cursor() as cursor:
-            scanned_cheque = cv2.imread("H:\\My Drive\\namma_a_eye\\ocr_r_and_d_003.jpg")
+            scanned_cheque = cv2.imread("your_image_path_goes_here")
             img = process_image(scanned_cheque)
 
             cheque_date_img = img[30:55, 720:970]
