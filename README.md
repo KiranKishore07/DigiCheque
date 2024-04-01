@@ -34,5 +34,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - PaddleOCR: https://github.com/PaddlePaddle/PaddleOCR
 - OpenCV: https://github.com/opencv/opencv
-- PyTesseract: https://github.com/madmaze/pytesseract![image](https://github.com/KiranKishore07/DigiCheque/assets/48542495/3006d0f0-f4a5-4660-95c3-d1903ba97ff4)
+- PyTesseract: https://github.com/madmaze/pytesseract
 
