@@ -307,6 +307,7 @@ if __name__ == '__main__':
     try:
         with connection.cursor() as cursor:
             scanned_cheque = cv2.imread("your_image_path_goes_here")
+            assert scanned_cheque is not None, "File could not be read. Please double check the image path with 'os.path.exists()'"                                               
             img = process_image(scanned_cheque)
 
             cheque_date_img = img[30:55, 720:970]
